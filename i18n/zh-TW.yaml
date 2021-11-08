@@ -1,4 +1,5 @@
 toggleMenu:
+<<<<<<< HEAD
     other: Toggle Menu
 
 darkMode:
@@ -27,10 +28,39 @@ notFound:
         other: Not Found
     subtitle:
         other: This page does not exist.
+=======
+    other: 切換選單
+
+darkMode:
+    other: 夜晚模式
+
+article:
+    back:
+        other: 返回
+
+    tableOfContents:
+        other: 目錄
+
+    relatedContents:
+        other: 相關文章
+
+    lastUpdatedOn:
+        other: 最後更新
+
+    readingTime:
+        other: "閱讀時間: {{ .Count }} 分鐘"
+
+notFound:
+    title:
+        other: 404 錯誤
+    subtitle:
+        other: 頁面不存在
+>>>>>>> 72a5e956eefa9d84d46504ec65e7f417e295c13e
 
 widget:
     archives:
         title:
+<<<<<<< HEAD
             other: Archives
         more:
             other: More
@@ -51,3 +81,23 @@ footer:
         other: Built with {{ .Generator }}
     designedBy:
         other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
+=======
+            other: 紀錄
+
+        more:
+            other: 更多
+
+    tagCloud:
+        title:
+            other: 標籤雲
+
+search:
+    title:
+        other: 搜尋
+
+    placeholder:
+        other: 輸入關鍵字...
+
+    resultTitle:
+        other: "#PAGES_COUNT 個結果 （用時 #TIME_SECONDS 秒）"
+>>>>>>> 72a5e956eefa9d84d46504ec65e7f417e295c13e
